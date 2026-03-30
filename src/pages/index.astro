@@ -1,42 +1,100 @@
-<main>
-	<h1>🚀 M241 – Astro Blog Projekt</h1>
+<main class="container">
+	<section class="hero">
+		<h1>🚀 M241 – Astro Blog Projekt</h1>
+		<p>
+			Dieses Projekt wurde im Modul 241 (Tech Innovation – Frameworks) erstellt.
+			Ziel war es, das Framework <strong>Astro</strong> praktisch auszuprobieren und zu analysieren.
+		</p>
+	</section>
 
-	<p>
-		Dieses Projekt wurde im Modul 241 (Tech Innovation – Frameworks) erstellt.
-		Ziel war es, das Framework <strong>Astro</strong> praktisch auszuprobieren und zu analysieren.
-	</p>
+	<section class="card">
+		<h2>📌 Projektübersicht</h2>
+		<ul>
+			<li><strong>Framework:</strong> Astro</li>
+			<li><strong>Projekt:</strong> Blog</li>
+			<li><strong>Deployment:</strong> Vercel</li>
+		</ul>
+	</section>
 
-	<h2>📌 Projektübersicht</h2>
-	<ul>
-		<li>Framework: Astro</li>
-		<li>Projekt: Blog</li>
-		<li>Deployment: Vercel</li>
-	</ul>
+	<section class="card">
+		<h2>⚙️ Umsetzung</h2>
+		<p>
+			Im Rahmen dieser Aufgabe wurde ein Blog mit Astro erstellt. Dabei wurden die Grundlagen
+			des Frameworks gelernt und angewendet. Das Projekt wurde anschliessend auf GitHub hochgeladen
+			und mit Vercel deployed.
+		</p>
+	</section>
 
-	<h2>⚙️ Umsetzung</h2>
-	<p>
-		Im Rahmen dieser Aufgabe wurde ein Blog mit Astro erstellt.
-		Dabei wurden die Grundlagen des Frameworks gelernt und angewendet.
-		Das Projekt wurde anschliessend auf GitHub hochgeladen und mit Vercel deployed.
-	</p>
+	<section class="card">
+		<h2>📊 Analyse</h2>
+		<p>
+			Astro zeichnet sich durch sehr gute Performance aus, da standardmässig statische Seiten generiert werden.
+			Zudem ist das Framework einfach zu bedienen und gut dokumentiert.
+		</p>
+	</section>
 
-	<h2>📊 Analyse</h2>
-	<p>
-		Astro zeichnet sich durch sehr gute Performance aus, da standardmässig statische Seiten generiert werden.
-		Zudem ist das Framework einfach zu bedienen und gut dokumentiert.
-	</p>
+	<section class="card">
+		<h2>📖 Inhalte</h2>
+		<ul>
+			<li>Blogposts zum Projekt</li>
+			<li>Framework Analyse</li>
+			<li>Deployment und Hosting</li>
+		</ul>
+	</section>
 
-	<h2>📖 Inhalte</h2>
-	<ul>
-		<li>Blogposts zum Projekt</li>
-		<li>Framework Analyse</li>
-		<li>Deployment und Hosting</li>
-	</ul>
-
-	<h2>🌐 Live Website</h2>
-	<p>
-		<a href="https://m241-astro-framework-comparison.vercel.app">
+	<section class="card center">
+		<h2>🌐 Live Website</h2>
+		<a class="button" href="https://m241-astro-framework-comparison.vercel.app" target="_blank">
 			Projekt ansehen
 		</a>
-	</p>
+	</section>
 </main>
+
+<style>
+	.container {
+		max-width: 900px;
+		margin: auto;
+		padding: 2rem;
+	}
+
+	.hero {
+		text-align: center;
+		margin-bottom: 2rem;
+	}
+
+	.hero h1 {
+		font-size: 2.5rem;
+		margin-bottom: 1rem;
+	}
+
+	.card {
+		background: white;
+		padding: 1.5rem;
+		border-radius: 12px;
+		box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+		margin-bottom: 1.5rem;
+	}
+
+	.card h2 {
+		margin-bottom: 0.5rem;
+	}
+
+	.center {
+		text-align: center;
+	}
+
+	.button {
+		display: inline-block;
+		margin-top: 1rem;
+		padding: 0.7rem 1.5rem;
+		background: black;
+		color: white;
+		border-radius: 8px;
+		text-decoration: none;
+		font-weight: bold;
+	}
+
+	.button:hover {
+		opacity: 0.8;
+	}
+</style>
