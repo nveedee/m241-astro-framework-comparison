@@ -1,42 +1,109 @@
-# M241 – Astro Framework Comparison
+# M241 – Framework Vergleich mit Astro
 
-This project was created for Module 241. It demonstrates the use of the Astro framework and includes analysis of ecosystem, performance, scalability, and business aspects.
+Dieses Projekt wurde im Rahmen des Moduls 241 (Tech Innovation – Frameworks) erstellt. Ziel war es, ein modernes Web-Framework praktisch auszuprobieren, zu analysieren und anhand verschiedener Kriterien zu bewerten.
 
-## 🚀 Project
+Als Framework wurde **Astro** gewählt und ein einfacher Blog umgesetzt.
 
-- Framework: Astro
-- Type: Blog
-- Deployment: (add your link later)
+---
 
-## 📊 Documentation
+## 🚀 Projektbeschreibung
+
+Im Projekt wurde mit dem Framework Astro eine kleine Blog-Webseite entwickelt.  
+Dabei wurden folgende Anforderungen erfüllt:
+
+- Erstellung eines funktionierenden Webprojekts (Blog)
+- Verwaltung des Projekts mit GitHub
+- Deployment der Anwendung auf einer PaaS-Plattform
+- Analyse und Bewertung des Frameworks
+
+👉 Die Website ist online verfügbar:
+https://m241-astro-framework-comparison.vercel.app
+
+---
+
+## ⚙️ Umsetzung
+
+Die Umsetzung erfolgte in mehreren Schritten:
+
+1. **Projekt Setup**
+   - Erstellung eines Astro-Projekts mit dem Blog-Template
+   - Installation der benötigten Dependencies mit npm
+
+2. **Entwicklung**
+   - Anpassung der bestehenden Seiten
+   - Erstellung von Blog-Inhalten
+   - Verständnis der Projektstruktur (pages, components, layouts)
+
+3. **Versionsverwaltung**
+   - Nutzung von Git und GitHub
+   - Commit und Push des Projekts ins Repository
+
+4. **Deployment**
+   - Deployment mit Vercel
+   - Automatische Veröffentlichung der Website
+
+---
+
+## 📊 Analyse des Frameworks
 
 ### 1. Ecosystem
 
-| Name  | Age | Usage | Documentation | Issues & Bug Fixes | Migration |
-|------|-----|------|--------------|-------------------|----------|
-| Astro | 2021 | growing | very good | active community | easy |
+| Name  | Alter | Nutzung | Dokumentation | Bugs & Fixes | Migration |
+|------|------|--------|--------------|-------------|----------|
+| Astro | seit 2021 | wachsend | sehr gut | aktive Community | einfach |
+
+---
 
 ### 2. Performance
 
 | Name | SSR | SPA | Static | Serverless |
 |------|----|----|--------|-----------|
-| Astro | yes | partial | yes | yes |
+| Astro | ja | teilweise | ja | ja |
 
-### 3. Business Model
+👉 Astro ist besonders schnell, da standardmässig statische Seiten generiert werden.
 
-| Name | Infrastructure Costs | License | Avg Cost/mo | Small App | Large App |
-|------|--------------------|--------|------------|----------|----------|
-| Astro | low | MIT | 0–20$ | cheap | scalable |
+---
 
-### 4. Scalability
+### 3. Business Model & Kosten
 
-| Name | Horizontal Scaling | Host Provider | Headroom | Notes |
-|------|------------------|--------------|----------|------|
-| Astro | yes | Vercel | high | static = easy scaling |
+| Name | Infrastrukturkosten | Lizenz | Ø Kosten/Monat | Kleine App | Grosse App |
+|------|------------------|--------|---------------|-----------|-----------|
+| Astro | gering | MIT | 0–20$ | günstig | skalierbar |
 
-### 5. Takeaways
+---
 
-Astro is a modern framework focused on performance. It is easy to use and well documented. It is especially suitable for blogs and static websites.
+### 4. Skalierbarkeit
+
+| Name | Horizontale Skalierung | Hosting | Reserven | Notizen |
+|------|----------------------|--------|---------|--------|
+| Astro | ja | Vercel | hoch | statische Seiten sind leicht skalierbar |
+
+---
+
+## 🧠 Projektspezifische Anforderungen
+
+Für dieses Projekt (Blog) waren folgende Punkte wichtig:
+
+- schnelle Ladezeiten
+- einfache Entwicklung
+- geringe Kosten
+- einfache Deployment-Möglichkeiten
+
+👉 Astro erfüllt diese Anforderungen sehr gut durch statische Generierung und einfache Integration mit Hosting-Plattformen.
+
+---
+
+## 📌 Fazit / Takeaways
+
+- Astro ist ein modernes und performantes Framework
+- Besonders geeignet für Blogs und statische Webseiten
+- Sehr gute Dokumentation und einfache Nutzung
+- Deployment ist schnell und unkompliziert
+
+👉 Insgesamt ist Astro eine sehr gute Wahl für einfache bis mittelgrosse Webprojekte.
+
+---
+
 ## 🌐 Deployment
 
 https://m241-astro-framework-comparison.vercel.app
