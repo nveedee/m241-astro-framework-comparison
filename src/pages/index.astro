@@ -1,9 +1,7 @@
 <main class="container">
 	<section class="hero">
 		<h1>🚀 M241 – Astro Blog Projekt</h1>
-		<p>
-			Framework Analyse & Umsetzung mit <strong>Astro</strong>
-		</p>
+		<p>Framework Analyse & Umsetzung mit <strong>Astro</strong></p>
 	</section>
 
 	<section class="grid">
@@ -17,14 +15,16 @@
 		<div class="card">
 			<h2>⚙️ Umsetzung</h2>
 			<p>
-				Ein Blog wurde mit Astro erstellt, auf GitHub verwaltet und mit Vercel deployed.
+				Ein Blog wurde mit Astro erstellt, auf GitHub verwaltet und
+				anschliessend mit Vercel deployed.
 			</p>
 		</div>
 
 		<div class="card">
 			<h2>📊 Analyse</h2>
 			<p>
-				Astro bietet sehr hohe Performance durch statische Seiten und ist einfach zu nutzen.
+				Astro bietet sehr hohe Performance durch statische Seiten und
+				ist besonders effizient für moderne Webprojekte.
 			</p>
 		</div>
 
@@ -39,39 +39,38 @@
 	</section>
 
 	<section class="cta">
-	<h2>🌐 Live Website</h2>
-	<a href="https://m241-astro-framework-comparison.vercel.app" target="_blank">
-		Projekt ansehen →
-	</a>
+		<h2>🌐 Live Website</h2>
 
-	<div class="links">
-		<a href="https://github.com/nveedee/m241-astro-framework-comparison" target="_blank">
-			💻 GitHub Repository
+		<a class="btn primary" href="https://m241-astro-framework-comparison.vercel.app" target="_blank">
+			Projekt ansehen →
 		</a>
-	</div>
 
-	<p class="team">
-	Projekt von:
-	<span>Philipp Egger</span> · 
-	<a href="https://www.linkedin.com/in/noel-von-däniken-26922535a" target="_blank">
-		Noel von Däniken
-	</a> · 
-	<a href="https://www.linkedin.com/in/ron-holti-910aa029b" target="_blank">
-		Ron Holti
-	</a>
-</p>
-</section>
+		<a class="btn secondary" href="https://github.com/nveedee/m241-astro-framework-comparison" target="_blank">
+			GitHub Repository
+		</a>
+
+		<p class="team">
+			Projekt von:
+			<span>Philipp Egger</span> · 
+			<a href="https://www.linkedin.com/in/noel-von-däniken-26922535a" target="_blank">
+				Noel von Däniken
+			</a> · 
+			<a href="https://www.linkedin.com/in/ron-holti-910aa029b" target="_blank">
+				Ron Holti
+			</a>
+		</p>
+	</section>
 </main>
 
 <style is:global>
 	body {
-		background: linear-gradient(135deg, #0f172a, #1e293b);
+		background: radial-gradient(circle at top, #1e293b, #020617);
 		color: white;
 		font-family: system-ui, sans-serif;
 	}
 
 	.container {
-		max-width: 1000px;
+		max-width: 1100px;
 		margin: auto;
 		padding: 2rem;
 	}
@@ -82,98 +81,100 @@
 	}
 
 	.hero h1 {
-		font-size: 2.5rem;
-		margin-bottom: 0.5rem;
+		font-size: 2.8rem;
+		font-weight: 700;
+		background: linear-gradient(90deg, #3b82f6, #60a5fa);
+		-webkit-background-clip: text;
+		-webkit-text-fill-color: transparent;
 	}
 
 	.hero p {
 		color: #94a3b8;
+		margin-top: 0.5rem;
 	}
 
 	.grid {
 		display: grid;
-		grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+		grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
 		gap: 1.5rem;
 	}
 
 	.card {
 		background: rgba(255, 255, 255, 0.05);
-		backdrop-filter: blur(10px);
+		backdrop-filter: blur(12px);
 		padding: 1.5rem;
-		border-radius: 16px;
+		border-radius: 18px;
 		border: 1px solid rgba(255, 255, 255, 0.1);
-		transition: transform 0.2s ease, box-shadow 0.2s ease;
+		transition: all 0.25s ease;
 	}
 
 	.card:hover {
-		transform: translateY(-5px);
-		box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3);
+		transform: translateY(-6px) scale(1.02);
+		box-shadow: 0 15px 35px rgba(0, 0, 0, 0.4);
 	}
 
 	.card h2 {
-		margin-bottom: 0.5rem;
+		margin-bottom: 0.6rem;
+		font-size: 1.2rem;
+	}
+
+	.card p,
+	.card li {
+		color: #cbd5f5;
 	}
 
 	.cta {
 		text-align: center;
-		margin-top: 3rem;
+		margin-top: 4rem;
 	}
 
-	.cta a {
+	.btn {
 		display: inline-block;
-		margin-top: 1rem;
+		margin: 0.5rem;
 		padding: 0.8rem 1.8rem;
-		background: #3b82f6;
-		color: white;
 		border-radius: 10px;
 		text-decoration: none;
-		font-weight: bold;
+		font-weight: 600;
+		transition: all 0.2s ease;
+	}
+
+	.primary {
+		background: #3b82f6;
+		color: white;
+	}
+
+	.primary:hover {
+		background: #2563eb;
+		transform: scale(1.05);
+	}
+
+	.secondary {
+		background: transparent;
+		color: #94a3b8;
+		border: 1px solid rgba(255, 255, 255, 0.2);
+	}
+
+	.secondary:hover {
+		color: white;
+		border-color: white;
+		transform: scale(1.05);
+	}
+
+	.team {
+		margin-top: 2.5rem;
+		font-size: 0.9rem;
+		color: #64748b;
+	}
+
+	.team a {
+		color: inherit;
+		text-decoration: none;
+		border-bottom: 1px solid rgba(255,255,255,0.2);
 		transition: 0.2s;
 	}
 
-	.cta a:hover {
-		background: #2563eb;
+	.team a:hover {
+		color: white;
+		border-bottom: 1px solid white;
 	}
-	.links {
-	margin-top: 1rem;
-}
-
-.links a {
-	color: #94a3b8;
-	font-weight: normal;
-	border-bottom: 1px solid rgba(255,255,255,0.2);
-}
-
-.links a:hover {
-	color: white;
-	border-bottom: 1px solid white;
-}
-
-.team {
-	margin-top: 2rem;
-	font-size: 0.95rem;
-	color: #94a3b8;
-}
-
-.hero h1 {
-	background: linear-gradient(90deg, #3b82f6, #60a5fa);
-	-webkit-background-clip: text;
-	-webkit-text-fill-color: transparent;
-}
-
-.team a {
-	color: inherit; /* gleiche Farbe wie Text */
-	text-decoration: none;
-	border-bottom: 1px solid rgba(255,255,255,0.2);
-	transition: 0.2s;
-}
-
-.team a:hover {
-	color: white;
-	border-bottom: 1px solid white;
-}
-
-.team span {
-	color: inherit;
-}
 </style>
