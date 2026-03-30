@@ -1,67 +1,39 @@
-<<<<<<< HEAD
-# Astro Starter Kit: Blog
+# M241 – Astro Framework Comparison
 
-```sh
-npm create astro@latest -- --template blog
-```
+This project was created for Module 241. It demonstrates the use of the Astro framework and includes analysis of ecosystem, performance, scalability, and business aspects.
 
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
+## 🚀 Project
 
-Features:
+- Framework: Astro
+- Type: Blog
+- Deployment: (add your link later)
 
-- ✅ Minimal styling (make it your own!)
-- ✅ 100/100 Lighthouse performance
-- ✅ SEO-friendly with canonical URLs and Open Graph data
-- ✅ Sitemap support
-- ✅ RSS Feed support
-- ✅ Markdown & MDX support
+## 📊 Documentation
 
-## 🚀 Project Structure
+### 1. Ecosystem
 
-Inside of your Astro project, you'll see the following folders and files:
+| Name  | Age | Usage | Documentation | Issues & Bug Fixes | Migration |
+|------|-----|------|--------------|-------------------|----------|
+| Astro | 2021 | growing | very good | active community | easy |
 
-```text
-├── public/
-├── src/
-│   ├── components/
-│   ├── content/
-│   ├── layouts/
-│   └── pages/
-├── astro.config.mjs
-├── README.md
-├── package.json
-└── tsconfig.json
-```
+### 2. Performance
 
-Astro looks for `.astro` or `.md` files in the `src/pages/` directory. Each page is exposed as a route based on its file name.
+| Name | SSR | SPA | Static | Serverless |
+|------|----|----|--------|-----------|
+| Astro | yes | partial | yes | yes |
 
-There's nothing special about `src/components/`, but that's where we like to put any Astro/React/Vue/Svelte/Preact components.
+### 3. Business Model
 
-The `src/content/` directory contains "collections" of related Markdown and MDX documents. Use `getCollection()` to retrieve posts from `src/content/blog/`, and type-check your frontmatter using an optional schema. See [Astro's Content Collections docs](https://docs.astro.build/en/guides/content-collections/) to learn more.
+| Name | Infrastructure Costs | License | Avg Cost/mo | Small App | Large App |
+|------|--------------------|--------|------------|----------|----------|
+| Astro | low | MIT | 0–20$ | cheap | scalable |
 
-Any static assets, like images, can be placed in the `public/` directory.
+### 4. Scalability
 
-## 🧞 Commands
+| Name | Horizontal Scaling | Host Provider | Headroom | Notes |
+|------|------------------|--------------|----------|------|
+| Astro | yes | Vercel | high | static = easy scaling |
 
-All commands are run from the root of the project, from a terminal:
+### 5. Takeaways
 
-| Command                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
-
-## 👀 Want to learn more?
-
-Check out [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
-
-## Credit
-
-This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
-=======
-# m241-astro-framework-comparison
-M241 project: Comparison of modern web frameworks using Astro. Includes ecosystem analysis, performance testing, scalability evaluation, and deployment.
->>>>>>> b0fb567a0465b76465d829d24fde86c380f356d2
+Astro is a modern framework focused on performance. It is easy to use and well documented. It is especially suitable for blogs and static websites.
