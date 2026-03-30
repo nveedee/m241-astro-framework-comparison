@@ -39,11 +39,22 @@
 	</section>
 
 	<section class="cta">
-		<h2>🌐 Live Website</h2>
-		<a href="https://m241-astro-framework-comparison.vercel.app" target="_blank">
-			Projekt ansehen →
+	<h2>🌐 Live Website</h2>
+	<a href="https://m241-astro-framework-comparison.vercel.app" target="_blank">
+		Projekt ansehen →
+	</a>
+
+	<div class="links">
+		<a href="https://github.com/nveedee/m241-astro-framework-comparison" target="_blank">
+			💻 GitHub Repository
 		</a>
-	</section>
+	</div>
+
+	<p class="team">
+		Projekt von:<br>
+		Philipp Egger • Noel von Däniken • Ron Holti
+	</p>
+</section>
 </main>
 
 <style is:global>
@@ -117,4 +128,25 @@
 	.cta a:hover {
 		background: #2563eb;
 	}
+	.links {
+	margin-top: 1rem;
+}
+
+.links a {
+	display: inline-block;
+	margin-top: 0.5rem;
+	color: #60a5fa;
+	text-decoration: none;
+	font-weight: bold;
+}
+
+.links a:hover {
+	text-decoration: underline;
+}
+
+.team {
+	margin-top: 2rem;
+	font-size: 0.9rem;
+	color: #94a3b8;
+}
 </style>
