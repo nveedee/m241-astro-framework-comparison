@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # Astro Starter Kit: Blog
 
 ```sh
@@ -60,3 +61,7 @@ Check out [our documentation](https://docs.astro.build) or jump into our [Discor
 ## Credit
 
 This theme is based off of the lovely [Bear Blog](https://github.com/HermanMartinus/bearblog/).
+=======
+# m241-astro-framework-comparison
+M241 project: Comparison of modern web frameworks using Astro. Includes ecosystem analysis, performance testing, scalability evaluation, and deployment.
+>>>>>>> b0fb567a0465b76465d829d24fde86c380f356d2
