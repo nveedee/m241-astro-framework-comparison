@@ -37,3 +37,6 @@ This project was created for Module 241. It demonstrates the use of the Astro fr
 ### 5. Takeaways
 
 Astro is a modern framework focused on performance. It is easy to use and well documented. It is especially suitable for blogs and static websites.
+## 🌐 Deployment
+
+https://m241-astro-framework-comparison.vercel.app
