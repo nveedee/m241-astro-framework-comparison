@@ -6,7 +6,7 @@ Als Framework wurde **Astro** gewählt und ein einfacher Blog umgesetzt.
 
 ---
 
-## 🚀 Projektbeschreibung
+##  Projektbeschreibung
 
 Im Projekt wurde mit dem Framework Astro eine kleine Blog-Webseite entwickelt.  
 Dabei wurden folgende Anforderungen erfüllt:
@@ -16,12 +16,12 @@ Dabei wurden folgende Anforderungen erfüllt:
 - Deployment der Anwendung auf einer PaaS-Plattform
 - Analyse und Bewertung des Frameworks
 
-👉 Die Website ist online verfügbar:
+ Die Website ist online verfügbar:
 https://m241-astro-framework-comparison.vercel.app
 
 ---
 
-## ⚙️ Umsetzung
+##  Umsetzung
 
 Die Umsetzung erfolgte in mehreren Schritten:
 
@@ -44,7 +44,7 @@ Die Umsetzung erfolgte in mehreren Schritten:
 
 ---
 
-## 📊 Analyse des Frameworks
+##  Analyse des Frameworks
 
 ### 1. Ecosystem
 
@@ -60,7 +60,7 @@ Die Umsetzung erfolgte in mehreren Schritten:
 |------|----|----|--------|-----------|
 | Astro | ja | teilweise | ja | ja |
 
-👉 Astro ist besonders schnell, da standardmässig statische Seiten generiert werden.
+ Astro ist besonders schnell, da standardmässig statische Seiten generiert werden.
 
 ---
 
@@ -80,7 +80,7 @@ Die Umsetzung erfolgte in mehreren Schritten:
 
 ---
 
-## 🧠 Projektspezifische Anforderungen
+##  Projektspezifische Anforderungen
 
 Für dieses Projekt (Blog) waren folgende Punkte wichtig:
 
@@ -89,21 +89,21 @@ Für dieses Projekt (Blog) waren folgende Punkte wichtig:
 - geringe Kosten
 - einfache Deployment-Möglichkeiten
 
-👉 Astro erfüllt diese Anforderungen sehr gut durch statische Generierung und einfache Integration mit Hosting-Plattformen.
+ Astro erfüllt diese Anforderungen sehr gut durch statische Generierung und einfache Integration mit Hosting-Plattformen.
 
 ---
 
-## 📌 Fazit / Takeaways
+##  Fazit / Takeaways
 
 - Astro ist ein modernes und performantes Framework
 - Besonders geeignet für Blogs und statische Webseiten
 - Sehr gute Dokumentation und einfache Nutzung
 - Deployment ist schnell und unkompliziert
 
-👉 Insgesamt ist Astro eine sehr gute Wahl für einfache bis mittelgrosse Webprojekte.
+ Insgesamt ist Astro eine sehr gute Wahl für einfache bis mittelgrosse Webprojekte.
 
 ---
 
-## 🌐 Deployment
+##  Deployment
 
 https://m241-astro-framework-comparison.vercel.app
